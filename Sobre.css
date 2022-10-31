@@ -1,0 +1,70 @@
+ .u-section-1 {
+  min-height: 934px;
+  background-image: url("images/sobre-nos.png");
+}
+
+.u-section-1 .u-list-1 {
+  width: 1227px;
+  margin: 264px 0 60px auto;
+}
+
+.u-section-1 .u-repeater-1 {
+  grid-template-columns: 100%;
+  min-height: 204px;
+  grid-gap: 66px 66px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px 0;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin: 24px -12px 0 22px;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    min-height: 795px;
+  }
+
+  .u-section-1 .u-list-1 {
+    width: 940px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-1 {
+    min-height: 648px;
+  }
+
+  .u-section-1 .u-list-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-1 {
+    min-height: 528px;
+  }
+
+  .u-section-1 .u-list-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 394px;
+  }
+
+  .u-section-1 .u-list-1 {
+    width: 340px;
+  }
+}
